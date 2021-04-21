@@ -1,0 +1,43 @@
+:root {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: brown;
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  min-width: 200px;
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.CardName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6c7279;
+  padding: 50px 0;
+}
+
+.CardText {
+  padding: 0 10px 10px;
+}
