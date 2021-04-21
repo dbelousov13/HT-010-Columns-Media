@@ -31,6 +31,9 @@ section {
   /* border: 1px solid black; */
 }
 
+.CardHead {
+  padding-top: 20px;
+}
 .CardName {
   font-size: 1.2rem;
   font-weight: bold;
